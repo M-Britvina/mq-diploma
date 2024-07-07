@@ -53,14 +53,9 @@ body {
 }
 
 .header-top {
-  width: calc(100% - 460px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 230px;
-  margin-right: 230px;
+  justify-content: space-around;
   margin-bottom: 80px;
 }
 
@@ -78,7 +73,7 @@ body {
   display: inline-block;
   color: #ffffff;
   padding: 0;
-  margin-left: 40px;
+  margin: 0px;
 }
 
 .menu-item {
@@ -1060,6 +1055,7 @@ p {
   }
 
   .header-top {
+    justify-content: flex-start;
     margin: 40px 30px 85px;
   }
 
